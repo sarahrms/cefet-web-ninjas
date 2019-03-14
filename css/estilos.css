@@ -1,17 +1,17 @@
 body {
-    background-image: url(../img/background.png); 
-    background-repeat: no-repeat;
+    background-image: url(../img/background.jpg);
+    background-repeat: round;
     background-size: cover;
     font-family: times;
-    font-size: 18px;	
+    font-size: 18px;
 }
 
 header {
-    display: block;	
+    display: block;
     background-image: linear-gradient(to right, black, #DF0101, #1C1C1C);
 }
 
-.logo {    
+.logo {
     width: 200px;
     margin: auto;
     display: block;
@@ -34,19 +34,19 @@ p {
     text-align: justify;
 }
 
-h1 {    
+h1 {
     text-align: center;
     font-family: fantasy;
     font-size: 48px;
 }
 
-h2 {  
+h2 {
 	text-align: center;
     font-family: fantasy;
     font-size: 40px;
 }
 
-h3 {    
+h3 {
     font-family: fantasy;
     font-size: 36px;
 }
@@ -54,15 +54,15 @@ h3 {
 .step {
     display: block;
     background-color: lightgray;
-    box-shadow: 5px 5px 5px gray; 
+    box-shadow: 5px 5px 5px gray;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
     text-indent: justify;
 }
 
-.step .number{    
+.step .number{
     font-family: fantasy;
     font-size: 32px;
     padding-right: 10px;
@@ -78,7 +78,7 @@ h3 {
     font-size: 28px;
 }
 
-.note {    
+.note {
     opacity: 0.7;
 }
 
@@ -91,7 +91,7 @@ h3 {
 .centralized p{
 	margin: auto;
 	display: block;
-	text-align: center;	
+	text-align: center;
 }
 
 .centralized ul {
@@ -117,16 +117,16 @@ li {
 	display: block;
 }
 
-iframe {    
+iframe {
     margin: auto;
     display: block;
 }
 
-img:not(.logo):not(.separate){    
+img:not(.logo):not(.separate){
     margin: auto;
     display: block;
     border-radius: 15%;
-    box-shadow: 5px 5px 5px black;    
+    box-shadow: 5px 5px 5px black;
 }
 
 a:link {
