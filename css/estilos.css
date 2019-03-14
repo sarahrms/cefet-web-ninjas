@@ -1,13 +1,13 @@
 body {
-    background-image: url(../img/background.jpg); 
+    background-image: url(../img/background.png); 
     background-repeat: no-repeat;
     background-size: cover;
     font-family: times;
-    font-size: 18px;
+    font-size: 18px;	
 }
 
 header {
-    display: block;
+    display: block;	
     background-image: linear-gradient(to right, black, #DF0101, #1C1C1C);
 }
 
@@ -31,7 +31,7 @@ main {
 }
 
 p {
-    text-align: justify
+    text-align: justify;
 }
 
 h1 {    
@@ -40,7 +40,8 @@ h1 {
     font-size: 48px;
 }
 
-h2 {    
+h2 {  
+	text-align: center;
     font-family: fantasy;
     font-size: 40px;
 }
@@ -87,14 +88,24 @@ h3 {
 	text-align: center;
 }
 
-ul {
-	text-align:inherit;
+.centralized p{
+	margin: auto;
+	display: block;
+	text-align: center;	
+}
+
+.centralized ul {
+	align-content: center;
 	display: block;
 	list-style-image: url(../img/shuriken.png);
 }
 
+.centralized li {
+	margin-left: auto;
+}
+
 li {
-	text-align:inherit;
+	text-align:justify;
 	padding-bottom: 3px;
 	padding-top: 3px;
 }
@@ -114,7 +125,7 @@ iframe {
 img:not(.logo):not(.separate){    
     margin: auto;
     display: block;
-    border-radius: 50%;
+    border-radius: 15%;
     box-shadow: 5px 5px 5px black;    
 }
 
@@ -132,4 +143,11 @@ a:hover {
 
 a:visited {
 	color: midnightblue;
+}
+
+a[href^="http"] {
+	background-position: right;
+    background-image: url(../img/globo.png);
+	background-repeat: no-repeat;
+	padding-right: 20px;
 }
